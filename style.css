@@ -1,0 +1,315 @@
+
+
+body {
+    color: black;
+}
+
+.background-image-1 {
+    background-image: url("/Images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 125vh;
+    position: absolute;
+    opacity: 0.66;
+}
+                     /* LoGo */
+.left {
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+    left: 33px
+}
+
+.left img {
+    width: 55px;
+    top: 6px;
+    margin-left: 100px;
+}
+
+.left div h4 {
+    margin-left: 30px;
+}
+
+.left div strong {
+    margin-left: 30px;
+}
+
+.stable-name {
+    margin-left: 70px;
+    letter-spacing: 3px;
+    color: black;
+    /* font-family: 'Black Ops One', cursive; */
+
+}
+                  
+               /* Navbar  */
+
+.mid {
+    display: block;
+    width: 65%;
+    margin: 28px auto;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    /* font-family: sans-serif; */
+    font-family: 'Black Ops One', cursive;
+    padding: 40px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    color: white;
+    background: rgb(211, 129, 70);
+    transition: all 0.5s ease-in-out;
+    transform: scale(2);
+    border-radius: 15px;
+}
+
+
+
+.center-text {
+    color: transparent;
+    margin-top: 110px;
+    -webkit-text-stroke: 1px #fff;
+    text-align: center;
+    background: url("Images/backcenter.jpg");
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+    font-size: 40px;
+    transition: 0.5s;
+}
+
+@keyframes back {
+    100% {
+        background-position: 2000px 0;
+    }
+}
+
+/* bZbcksbcsgcsb */
+
+.box {
+    width: 100%;
+}
+
+.box input {
+    background: none;
+    width: 75%;
+    border: 2px solid purple;
+    margin: 12px 0px;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+}
+
+.btn {
+    cursor: pointer;
+    outline: none;
+    width: 25%;
+    margin-left: 200px;
+    color: black;
+    background-color: brown;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 400px;
+    border: 1px solid brown;
+    align-items: center;
+    margin: auto;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+
+.box {
+    padding: 12px;
+    margin: 10px;
+    width: 65%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: inset-3px -3px rgba(0, 0, 0.5);
+}
+
+.box:hover {
+    cursor: default;
+}
+
+#submit {
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 22px;
+    width: 50%;
+    background-color: brown;
+    color: wheat;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.3rem;
+}
+
+
+#submit:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.99;
+}
+
+
+
+.center-text h1:hover {
+    -webkit-text-stroke: 2px brown;
+    color: transparent;
+    font-size: large;
+    font-weight: bold;
+    transform: scale(1.4);
+    transition: all 1s ease-in;
+    transition: all 1s ease-out;
+    cursor: progress;
+}
+
+
+.container {
+    padding: 10px;
+    margin-top: 85px;
+    display: flex;
+    background-image: url("Images/Final.png"); 
+    background-repeat: no-repeat;
+    height: 350px;
+    opacity: 0.89;
+    z-index: -1;
+    line-height: 180%;
+
+}
+
+.container h4 img {
+    height: 50px;
+    width: 50px;
+    margin-left: 12px;
+    margin-top: 5px;
+    filter: invert(100%);
+}
+
+.container div {
+    margin-top: 3px;
+    margin-left: 100px;
+    border-radius: 7px;
+    padding: 25px;
+    /* color: crimson; */
+    color: white;
+    width: 20%;
+     background-color: rgba(0, 0, 0, 0.7); 
+
+}
+
+
+.container p img {
+    height: 30px;
+    width: 30px;
+    display: inline-flex;
+    border-radius: 10px;
+}
+
+.seconddiv li {
+    list-style: none;
+    padding: 10px;
+}
+           /* Contact info  */
+.Thirddiv p {
+    margin-left: 1px;
+}
+
+.Thirddiv p img {
+
+    padding: 7px;
+    border-radius: 15px;
+    width: 30px;
+    height: 25px;
+
+
+}
+
+.Thirddiv p img:hover {
+    cursor: pointer;
+}
+
+ .Thirddiv p {
+    display: inline;
+    margin-bottom: 12px;
+} 
+   
+ #contactno {
+    margin-top: 120px;
+    padding-top: 120px;
+} 
+     /* social icons */
+#socialicons img {
+    margin-top: 30px;
+    margin-left: 50px;
+    box-shadow: 10px 10px 10px black;
+
+}
+           /* button of contact info */
+.button {
+    border: none;
+    padding: 7px;
+    margin-top: 15px;
+    margin-left: 70px;
+    background: rgb(211, 129, 70);
+    border-radius: 7px;
+    font-family: 'Black Ops One', cursive;
+}
+.button:hover{
+
+    cursor: pointer;
+    transform: scale(1.4);
+    transition: all 1s ease-in;
+    transition: all 1s ease-out;
+}
+   /* footer */
+.footer {
+    background-color: black;
+     padding: 7px;
+    opacity: 0.99;
+
+}
+
+.footer p {
+    margin-left: 150px;
+    letter-spacing: 5px;
+    color: whitesmoke;
+    margin-left: 650px;
+    font-family: 'Black Ops One';
+}
+.footer p img{
+       height: 40px;
+       width: 40px;
+       filter: invert(100%);
+}
+.footer div {
+    align-content: right;
+    color: whitesmoke;
+    text-align: center;
+    margin: 5px;
+}
